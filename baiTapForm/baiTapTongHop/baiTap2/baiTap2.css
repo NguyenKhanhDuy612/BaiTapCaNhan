@@ -1,0 +1,29 @@
+/* body {
+        background-color: #d24dff;
+      } */
+
+table {
+  background: #ffd94d;
+
+  /* border: 0 solid yellow; */
+}
+
+thead {
+  background: #fff14d;
+}
+
+td {
+  color: blue;
+}
+
+h3 {
+  font-family: verdana;
+
+  text-align: center;
+
+  /* text-anchor: middle; */
+
+  color: #ff8100;
+
+  font-size: medium;
+}
