@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <?php
+
+    ?>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Enter your information</legend>
+        <table>
+          <tr>
+            <td>Họ tên:</td>
+
+            <td>
+              <input type="text" name="user" value="Nguyễn Khánh Duy" />
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ:</td>
+
+            <td>
+              <input type="text" name="user" value="Phú yên" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Số điện thoại:</td>
+            <td>
+              <input type="text" name="user" value="0000000" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Giới tính:</td>
+            <td>
+              <input type="radio" name="user" value="" />
+              Nam
+            </td>
+            <td>
+              <input type="radio" name="user" value="" />
+              Nữ
+            </td>
+          </tr>
+
+          <tr>
+            <td>Quốc tịch:</td>
+            <td>
+              <select name="cars" id="cars">
+                <option value="VietNam">VietNam</option>
+                <option value="My">My</option>
+                <option value="Anh">Anh</option>
+                <option value="Audi">Audi</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Các môn đã học:</td>
+            <td>
+              <input type="checkbox" name="php" value="" />
+              PHP & MySQL
+            </td>
+            <td>
+              <input type="checkbox" name="c" value="" />
+              C#
+            </td>
+            <td>
+              <input type="checkbox" name="xml" value="" />
+              XML
+            </td>
+            <td>
+              <input type="checkbox" name="xml" value="" />
+              PyThon
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ghi chú:</td>
+            <td>
+              <textarea name="message" rows="2" cols="30">
+The cat was playing in the garden.
+                </textarea
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="3" align="center">
+              <input type="submit" value="Gửi" name="gui" />
+              <input type="submit" value="Hủy" name="huy" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

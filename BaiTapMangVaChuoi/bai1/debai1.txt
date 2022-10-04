@@ -1,0 +1,14 @@
+Bài tập 1 - Một số thao tác trên mảng số nguyên
+Tạo form nhập vào 1 số tự nhiên n. Sử dụng hàm rand() (đưa ra số interger ngẫu nhiên) để phát sinh dữ liệu cho mảng có độ dài n. Sau đó viết hàm thực hiện các yêu cầu sau:
+
+a- Hiển thị mảng phát sinh ngẫu nhiên có độ dài n.
+
+b- Đếm xem có bao nhiêu thành phần trong mảng có giá trị là số chẵn.
+
+c- Đếm xem có bao nhiêu thành phần trong mảng có giá trị là số nhỏ hơn 100.
+
+d- Tính tổng của các thành phần trong mảng giá trị là số âm.
+
+e- In ra vị trí của các thành phần trong mảng có chữ số kề cuối là 0.
+
+f- Sắp xếp các số đó theo thứ tự tăng dần rồi lại in ra màn hình.

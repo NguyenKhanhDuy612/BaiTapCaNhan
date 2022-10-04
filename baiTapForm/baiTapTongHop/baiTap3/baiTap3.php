@@ -101,6 +101,7 @@
 
           <td colspan="4">
             <input
+            required
               type="text"
               name="twonumber"
               value="<?php  echo $twonumber;?> "
@@ -123,7 +124,7 @@
 
         <tr>
           <td colspan="4" align="center">
-            <input type="submit" value="Tính" name="tinh" />
+            <input required type="submit" value="Tính" name="tinh" />
           </td>
         </tr>
       </table>

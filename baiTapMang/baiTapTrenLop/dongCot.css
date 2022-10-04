@@ -1,0 +1,11 @@
+form {
+  border: 1px solid gray;
+  width: 500px;
+}
+
+.color__red {
+  color: red;
+}
+.color__blue {
+  color: blue;
+}
