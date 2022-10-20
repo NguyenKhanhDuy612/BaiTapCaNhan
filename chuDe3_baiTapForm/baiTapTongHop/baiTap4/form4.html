@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 4: Tạo trang web nhận và xử lý thông tin người dùng</title>
+  </head>
+  <body>
+    <!--  -->
+    <form
+      action="http://localhost:3000/chuDe3_baiTapForm/baiTapTongHop/baiTap4/formHienThiKetQua.php"
+      method="POST"
+    >
+      <fieldset>
+        <legend>Enter your information</legend>
+        <table>
+          <tr>
+            <td>Họ tên:</td>
+
+            <td>
+              <input required type="text" name="name" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ:</td>
+
+            <td>
+              <input required type="text" name="adr" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td>Số điện thoại:</td>
+            <td>
+              <input required type="text" name="phone" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td>Giới tính:</td>
+            <td>
+              <input type="radio" name="gender" value="Nam" checked /> Nam
+              <input type="radio" name="gender" value="Nữ" /> Nữ
+            </td>
+          </tr>
+          <tr>
+            <td>Quốc tịch:</td>
+            <td>
+              <select name="country">
+                <option value="VietNam" selected>VietNam</option>
+                <option value="My">My</option>
+                <option value="Anh">Anh</option>
+                <option value="Audi">Audi</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Các môn đã học:</td>
+            <td>
+              <input type="checkbox" name="chk1" value="PHP" checked /> PHP &
+              MySQL <input type="checkbox" name="chk2" value="c#" /> C#
+              <input type="checkbox" name="chk3" value="XML" />XML
+              <input type="checkbox" name="chk4" value="Python" />
+              PyThon
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ghi chú:</td>
+            <td>
+              <textarea name="comment" rows="5" cols="40">
+            The cat was playing in the garden.
+            </textarea
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="3" align="center">
+              <input type="submit" value="Gửi" name="gui" />
+              <input type="reset" value="Hủy" name="huy" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+    <!-- <?php
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $adr;
+echo "<br>";
+echo $phone;
+echo "<br>";
+echo $comment;
+echo "<br>";
+echo $gender;
+?> -->
+  </body>
+</html>

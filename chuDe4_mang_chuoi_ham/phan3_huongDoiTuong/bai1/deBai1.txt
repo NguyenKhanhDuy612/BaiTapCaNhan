@@ -1,0 +1,19 @@
+Bài 1 - Tạo các lớp đơn giản
+1/ Tạo các lớp sau:
+
+Lớp Người:
+- Các thuộc tính: Họ tên, Địa chỉ, Giới tính
+
+Lớp Sinh viên kế thừa từ lớp Người và có thêm các đặc điểm sau:
+-  Thuộc tính:  Lớp học, Ngành học
+
+-  Phương thức tính điểm thưởng: Nếu SV thuộc ngành CNTT thì điểm thưởng được tính là 1; nếu là SV ngành Kinh tế thì là 1.5; các ngành còn lại không có điểm thưởng
+
+Lớp Giảng viên kế thừa từ lớp Người và có thêm các đặc điểm sau:
+-  Thuộc tính: Trình độ (Cử nhân, Thạc sĩ, Tiến sĩ), Lương cơ bản = 1500000 (hằng số)
+
+-  Phương thức Tính Lương: Nếu trình độ là Cử nhân thì Lương = Lương cơ bản * 2.34; Nếu là Thạc sĩ thì Lương = Lương cơ bản * 3.67; Nếu là Tiến sĩ thì lương = Lương cơ bản * 5.66
+
+2/ Tạo giao diện:
+
+- Nhập thông tin của một GV hoặc SV, sau đó hiển thị thông tin của GV/SV kèm theo kết quả tính lương/điểm thưởng.

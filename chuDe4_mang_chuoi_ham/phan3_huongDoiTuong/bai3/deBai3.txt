@@ -1,0 +1,2 @@
+Yêu cầu: Sử dụng lập trình hướng đối tượng, sau khi nhập vào 2 phân số và chọn phép tính, => nhấn nút Kết quả, thì kết quả của phép tính sẽ được hiển thị ở cuối trang.
+Lưu ý rút gọn phân số trong trường hợp tử số và mẫu số có thừa số chung.

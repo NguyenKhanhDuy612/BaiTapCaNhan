@@ -1,0 +1,25 @@
+Bài 2 - Quản lý thông tin nhân viên
+Câu 1: Sử dụng ngôn ngữ lập trình hướng đối tượng xây dựng các lớp sau:
+
+- Lớp Nhân viên gồm có các thuộc tính: họ tên, giới tính, ngày vào làm, hệ số lương, số con, lương căn bản và các phương thức: tính tiền lương, tính trợ cấp, tính tiền thưởng (trong đó lương cơ bản là hằng số).
+
++ tính tiền thưởng: tiền thưởng=số năm làm việc * 1.000.000 đồng.
+
+- Lớp Nhân viên văn phòng kế thừa từ lớp Nhân viên có thêm các thuộc tính: số ngày vắng, định mức vắng, đơn giá phạt và các phương thức: tính tiền phạt, tính trợ cấp, tính tiền lương (định mức vắng, đơn giá phạt là hằng số).
+
++ tính tiền phạt: nếu số ngày vắng lớn hơn định mức vắng thì tiền phạt=số ngày vắng*định mức phạt;
+
++ tính trợ cấp: nếu là nhân viên nữ thì tiền trợ cấp = 200.000đồng * số con *1.5; ngược lại thì tiền trợ cấp = 200.000đồng * số con;
+
++ tính tiền lương: tiền lương= lương cơ bản* hệ số lương – tiền phạt.
+
+- Lớp Nhân viên sản xuất kế thừa từ lớp Nhân viên có thêm các thuộc tính: số sản phẩm, định mức sản phẩm, đơn giá sản phẩm và các phương thức: tính tiền thưởng, tính trợ cấp, tính tiền lương (lưu ý: định mức sản phẩm và đơn giá sản phẩm là hằng số).
+
++ tính tiền thưởng: nếu số sản phẩm lớn hơn định mức sản phẩm thì tiền thưởng = (số sản phẩm - định mức sản phẩm) * đơn giá sản phẩm *0.03;
+
++ tính trợ cấp: tiền trợ cấp = số con * 120.000đồng;
+
++ tính tiền lương: lương=(số sản phẩm * đơn giá sản phẩm) + tiền thưởng.
+
+Câu 2: Tạo Form có dạng như sau cho phép nhập thông tin của 1 NV bất kỳ. Sau đó tính và hiển thị tiền lương, tiền thưởng/phạt và tiền trợ câp (nếu có) của nhân viên.
+Lưu ý: Mục Tiền lương, Trợ cấp, tiền thưởng, Tiền phạt và Thực lĩnh không cho nhập liệu, và hiển thị theo định dạng giống trong form. Thông tin về lương và tiền thưởng/phạt sẽ được hiển thị ở các mục tương ứng sau khi nhấn nút Tính lương.
